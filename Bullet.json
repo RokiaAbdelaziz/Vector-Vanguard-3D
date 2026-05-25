@@ -1,0 +1,26 @@
+{
+  "Name": "PlasmaBullet",
+  "Components": [
+    {
+      "Type": "TransformComponent",
+      "Position": [ 0.0, 0.0, 0.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 0.5, 0.5, 0.5 ]
+    },
+    {
+      "Type": "MeshRendererComponent",
+      "Shape": "Sphere",
+      "Radius": 0.3,
+      "Color": [ 255, 255, 0, 255 ]
+    },
+    {
+      "Type": "ProjectileMovementComponent",
+      "Velocity": 10.0,
+      "Lifetime": 3.0
+    },
+    {
+      "Type": "AABBColliderComponent",
+      "Size": [ 0.6, 0.6, 0.6 ]
+    }
+  ]
+}
